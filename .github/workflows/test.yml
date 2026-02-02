@@ -18,3 +18,4 @@ jobs:
     - run: lua -e JSONLIB=[[jsonc]] test/conformance.lua
     - run: lua test/jsonc.lua
     - run: lua test/edit.lua
+git config --global --add safe.directory '%(prefix)///192.168.0.2/public/Rob/Rob/Board Game Files/uQ Board Game/Github/json.lua'
